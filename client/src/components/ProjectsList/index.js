@@ -10,6 +10,9 @@ import API from "../../utils/API";
 import style from "./styles.css";
 
 
+
+
+
 const divStyle = {
   margin: '10px',
   border: '5px solid black',
@@ -57,6 +60,17 @@ function ProjectsList() {
             <div key={project.title} className="card mx-auto col-4">
             <div style ={divStyle} className = {style.link}>
             <ListItem key={project._id} title={project.title} imageURL = {project.imageURL} id ={project._id}>
+            {/* <Resizable
+        defaultSize={{
+          width: 300,
+          height: 230,
+        }}
+        style={resizeStyle}>
+        <div style={{ width: '100%', height: '100%' }}>
+        <img className="card-img-top" src={project.imageURL} alt={project.title} />
+        </div>
+        
+      </Resizable> */}
             <img className="card-img-top" src={project.imageURL} alt={project.title} />
             <div className="card-body">
               <h4 className="card-title">{project.title}</h4>
