@@ -48,7 +48,7 @@
     "react-collapsible": "^2.7.0",
     "react-datepicker": "^2.14.1",
     "react-debounce-input": "^3.2.2",
-    "react-native": "^0.62.2",
+    "react-native": "^0.62.3",
     "react-native-iphone-x-helper": "^1.2.1",
     "react-navigation-stack": "^2.3.13",
     "react-open-weather": "^0.6.2",
